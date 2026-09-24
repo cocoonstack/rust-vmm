@@ -2,6 +2,13 @@
 
 ## Upcoming Release
 
+### Added
+
+- [[#175]](https://github.com/rust-vmm/rust-vmm/pull/175) The x86_64
+  `KVM_GET_ONE_REG` / `KVM_SET_ONE_REG` register ids from Linux 6.18:
+  `KVM_X86_REG_TYPE_MSR`, `KVM_X86_REG_TYPE_KVM`, `KVM_REG_GUEST_SSP` and the
+  `kvm_x86_reg_msr` / `kvm_x86_reg_kvm` id builders.
+
 ### Changed
 
 - [[381]](https://github.com/rust-vmm/kvm/pull/381)

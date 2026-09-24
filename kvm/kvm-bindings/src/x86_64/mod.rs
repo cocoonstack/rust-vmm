@@ -7,6 +7,7 @@ pub mod bindings;
 pub mod fam_wrappers;
 
 pub mod nested;
+pub mod one_reg;
 
 #[cfg(feature = "serde")]
 mod serialize;
@@ -14,3 +15,4 @@ mod serialize;
 pub use self::bindings::*;
 #[cfg(feature = "fam-wrappers")]
 pub use self::fam_wrappers::*;
+pub use self::one_reg::*;

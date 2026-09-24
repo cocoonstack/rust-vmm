@@ -1,5 +1,9 @@
 # Upcoming Release
 
+## Changed
+- [[#176]](https://github.com/rust-vmm/rust-vmm/pull/176): Update
+  `syscall_tables` from v6.18 kernel source
+
 # v0.5.0
 
 ## Added
